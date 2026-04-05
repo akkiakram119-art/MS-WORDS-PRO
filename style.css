@@ -1,0 +1,116 @@
+ *{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+
+}
+
+img{
+    width: 20px;
+}
+body{
+  background:linear-gradient(130deg,rgb(240, 196, 138),rgb(247, 167, 181));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  
+}
+
+.container{
+   width: 90%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+ .tell {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  background: rgba(255,255,255,0.15);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+button{
+  padding: 5px 7px ;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: bold;
+   background: white;
+    transition: 0.3s;
+     border: 2px solid black;
+}
+button:hover{
+  background-color: antiquewhite;
+}
+#text{
+  border-radius: 50px;
+  background: white;
+  font-weight: bold;
+   padding: 5px 7px ;
+  cursor: pointer;
+   border: 2px solid black;
+}
+#color{
+  border-color: black;
+  background: white;
+   border: 2px solid black;
+
+}
+#size{
+   padding: 5px 7px ;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: bold;
+   background: white;
+    transition: 0.3s;
+   border: 2px solid black;
+
+}
+#print{
+ width: 20px;
+position: relative;
+bottom: 5px;
+left: 29px;
+}
+
+#bg{
+ width: 40px;
+  height: 20px;
+  border: none;
+  background: none;
+  margin-top: 15px;
+  position: relative;
+
+  top: 10px;
+  left: -4px;
+
+}
+#same{
+  position: relative;
+  left: 540px;
+  bottom: 25px;
+  
+}
+#para{
+ min-height: 250px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+  overflow-x: scroll;
+
+}
+h1{
+  text-align: center;
+}
